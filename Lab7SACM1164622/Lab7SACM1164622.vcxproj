@@ -127,11 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cuadrado.cpp" />
     <ClCompile Include="Lab7SACM1164622.cpp" />
     <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="Poligonos.cpp" />
+    <ClCompile Include="Rectangulo.cpp" />
+    <ClCompile Include="Triangulo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cuadrado.h" />
     <ClInclude Include="Lista.h" />
+    <ClInclude Include="Poligonos.h" />
+    <ClInclude Include="Rectangulo.h" />
+    <ClInclude Include="Triangulo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
